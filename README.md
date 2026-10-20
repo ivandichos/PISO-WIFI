@@ -2,10 +2,10 @@
 FREE ELEC + EVD COMBINATION AHHHHHH
 
 
-Members
+# Members
 
--Gumahin,Joros (Leader)
--Tejano,Klent
--Tejano,Kyle
--Dichos,Rheyz Iavan
--Hinuguin,Rodge Yao Prieve
+//Gumahin,Joros (Leader)
+//Tejano,Klent
+//Tejano,Kyle
+//Dichos,Rheyz Iavan
+//Hinuguin,Rodge Yao Prieve
