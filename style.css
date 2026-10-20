@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body{
+    height:100vh;
+    background:#f8f5f0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.container{
+    width:850px;
+    height:500px;
+    background:white;
+    display:flex;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+
+/* LEFT SIDE */
+
+.image-side{
+    width:50%;
+    background:#f1e3d3;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.image-side img{
+    width:230px;
+    height:300px;
+    object-fit:contain;
+}
+
+
+.image-side h1{
+    letter-spacing:5px;
+    color:#8b6b3f;
+}
+
+
+.image-side p{
+    color:#777;
+}
+
+
+
+/* RIGHT SIDE */
+
+.login-side{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.login-box{
+    width:300px;
+}
+
+
+.login-box h2{
+    font-size:32px;
+    color:#5c4630;
+}
+
+
+.login-box p{
+    margin:10px 0 25px;
+    color:#777;
+}
+
+
+input[type="text"],
+input[type="password"]{
+
+    width:100%;
+    padding:13px;
+    margin-bottom:15px;
+    border:1px solid #ddd;
+    border-radius:25px;
+    outline:none;
+
+}
+
+
+.options{
+    display:flex;
+    justify-content:space-between;
+    font-size:13px;
+    margin-bottom:20px;
+}
+
+
+.options a,
+.signup a{
+    color:#9b753c;
+    text-decoration:none;
+}
+
+
+button{
+
+    width:100%;
+    padding:13px;
+    border:none;
+    border-radius:25px;
+    background:#b88a44;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+
+}
+
+
+button:hover{
+    background:#8f652d;
+}
+
+
+.signup{
+    text-align:center;
+    margin-top:20px;
+}
